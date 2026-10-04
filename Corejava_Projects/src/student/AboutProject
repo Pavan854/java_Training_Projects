@@ -1,0 +1,52 @@
+PROJECT: STUDENT MANAGEMENT SYSTEM
+
+Description:
+------------
+Developed a console-based Student Management System for a coaching center to manage student details, marks, course information, attendance, and student status. The application allows staff to add, view, search, update, remove, and manage student records efficiently. Student records are stored using a HashMap with Student ID as the key, and file handling is used to save and load student data so that records can be preserved after the application is closed.
+
+Main Classes:
+--------------
+• Student – Stores student details such as ID, name, email, marks, attendance, status, and course.
+• Course – Stores course ID and course name associated with a student.
+• StudentService – Handles the main student management operations.
+• StudentFileService – Handles saving and loading student records using file handling.
+• StudentPortal/Main – Provides the menu-driven console interface.
+
+Features Implemented:
+---------------------
+• Add a new student -Prevent duplicate student IDs
+• Store course details for each student
+• Display all students
+• Search student by ID
+• Search student by name
+• Update student marks - Validate marks  between 0 and 100
+• Update student attendance - Validate attendance between 0 and 100
+• Calculate student grade based on marks
+• Remove a student
+• Display the student with the highest marks as topper
+• Maintain student status using ACTIVE, INACTIVE, and COMPLETED -  Handle invalid student status using exception handling
+• Save student records to a file
+• Load student records from a file
+• Preserve student data after the program is closed
+
+Concepts Used:
+-------------
+• Core Java
+• Object-Oriented Programming (OOP)
+• Classes and Objects
+• Encapsulation using private fields, getters, and setters
+• Constructors
+• HashMap<Integer, Student>
+• Enum (StudentStatus)
+• Array/Collection traversal using loops
+• Conditional statements
+• Scanner for user input
+• Exception Handling using try-catch
+• File Handling
+• Object Serialization using ObjectOutputStream and ObjectInputStream
+• Method overriding using toString()
+• switch case
+
+Project Outcome:
+---------------
+Successfully developed a menu-driven Student Management System for a coaching center 
