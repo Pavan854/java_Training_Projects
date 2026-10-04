@@ -1,0 +1,63 @@
+PROJECT: LIBRARY MANAGEMENT SYSTEM
+
+Description:
+------------
+Developed a console-based Library Management System to manage books, librarians, book issuing and returning, book availability, due dates, and fines.
+The application allows library staff to add, display, search, issue, and return books while tracking issued books using a HashMap.
+LocalDate is used for issue dates, due dates, fine calculation, and due-date reminders.
+
+Main Classes:
+--------------
+• Book – Stores book details such as book ID, title, author, and availability.
+• User – Stores user ID and user name.
+• Librarian – Stores librarian ID and librarian name.
+• LibraryService – Handles the main library operations such as adding books, searching, issuing, returning, fines, reminders, and reports.
+• Library/Main – Provides the menu-driven console interface.
+
+Features Implemented:
+---------------------
+• Add new books
+• Display all books
+• Search books by Book ID
+• Search books by title
+• Search books by author
+• Check book availability
+• Add librarians
+• Verify librarian before issuing a book
+• Get librarian approval before issuing a book
+• Issue books to users
+• Return issued books
+• Track issued books using user ID
+• Calculate fine for overdue books
+• Fine is calculated at ₹10 per overdue day
+• Collect fine and display payment status
+• Calculate a 7-day due date from the issue date
+• Provide due-date reminders
+• Generate library reports
+• Display total books, available books, issued books, and total librarians
+• Display issued book details and due dates
+
+Concepts Used:
+-------------
+• Core Java
+• Object-Oriented Programming (OOP)
+• Classes and Objects
+• Encapsulation using private fields, getters, and setters
+• Constructors
+• ArrayList
+• HashMap
+• Map.Entry
+• Iterator
+• LocalDate
+• Date handling
+• Conditional statements
+• Loops
+• switch case
+• Scanner for user input
+• Exception/validation-based handling
+• Method overriding using toString()
+• Object relationships
+
+Project Outcome:
+---------------
+Successfully developed a menu-driven Library Management System.
